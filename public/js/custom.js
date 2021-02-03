@@ -4,8 +4,8 @@
     PRE LOADER
   -------------------------------------------------------------------------------*/
 
-  jQuery(window).load(function(){
-    jQuery('.preloader').fadeOut(1000); // set duration in brackets    
+  $(window).load(function(){
+    $('.preloader').fadeOut(1000); // set duration in brackets    
   });
 
 
@@ -20,16 +20,16 @@
     Navigation - Hide mobile menu after clicking on a link
   -------------------------------------------------------------------------------*/
 
-  jQuery('.navbar-collapse a').click(function(){
-    jQuery(".navbar-collapse").collapse('hide');
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
     });
 
 
-    jQuery(window).scroll(function() {
-    if (jQuery(".navbar").offset().top > 50) {
-      jQuery(".navbar-fixed-top").addClass("top-nav-collapse");
+    $(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
-      jQuery(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
   });
 
