@@ -7,9 +7,10 @@ function Contact() {
           <div className="row">
             <div className="col-md-3 col-sm-6">
               <div className="wow fadeInUp color-white service-thumb" data-wow-delay="1.2s">
-                <i className="fa fa-envelope" />
-                <h3>Email</h3>
-                <p className="color-white">www.yash.900209@gmail.com</p>
+              <a className="color-white" href="mailto:yash.900209@gmail.com">
+                  <i className="fa fa-envelope" />
+                  <h3>Email</h3>
+                  <p>yash.900209@gmail.com</p></a>
               </div>
             </div>
             <div className="bg-skills col-md-3 col-sm-6">
