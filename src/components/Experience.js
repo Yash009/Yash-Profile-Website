@@ -17,7 +17,7 @@ function Experience() {
                     <i className="fa fa-laptop" />
                   </div>
                   <div className="media-body">
-                    <h3 className="media-heading">Btech in Information Technology<small> 2008 Jul - 2012 May</small></h3>
+                    <h3 className="media-heading">Btech in Information Technology<small> (2008 Jul - 2012 May)</small></h3>
                     <p className="color-white">NMIMS University (Mumbai). </p>
                   </div>
                 </div>
@@ -26,7 +26,7 @@ function Experience() {
                     <i className="fa fa-laptop" />
                   </div>
                   <div className="media-body">
-                    <h3 className="media-heading">Masters In Computer Science<small> 2015 Sep - 2017 May</small></h3>
+                    <h3 className="media-heading">Masters In Computer Science<small> (2015 Sep - 2017 May)</small></h3>
                     <p className="color-white">Pace University (New York City)</p>
                   </div>
                 </div>
