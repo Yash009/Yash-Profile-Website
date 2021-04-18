@@ -1,13 +1,15 @@
 import React from "react"
 function Intro() {
     return (
-        <section id="home" className="parallax-section" tabIndex="0">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-6 col-sm-6">
-                        <div className="home-img" />
+        <section id="home-section" tabIndex="0">
+            <div className="flex-container">
+                <div className="flex-row left-section">
+                    <div className="flex-item">
+                        <img src="/images/home-img.jpg" className="img-responsive" alt="Main Display image" />
                     </div>
-                    <div className="col-md-6 col-sm-6">
+                </div>
+                <div className="flex-row right-section">
+                    <div className="flex-item">
                         <div className="home-thumb">
                             <div className="section-title">
                                 <h1 className="wow fadeInUp" data-wow-delay="0.6s">Hello, I am <strong>Yash Chaturvedi</strong> currently based in Jacksonville, Florida.</h1>

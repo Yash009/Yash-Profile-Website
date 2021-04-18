@@ -10,7 +10,7 @@ body {
 	background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-	font-weight: 300;
+	  font-weight: 300;
     overflow-x: hidden;
 }
 
@@ -122,7 +122,7 @@ p {
   position: relative;
 }
 
-#home .container,
+#home-section .container,
 #about .container, 
 #experience .container,
 #service .container,
@@ -215,8 +215,13 @@ a:hover, a:active, a:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-
+.flex-container, .flex-row, .flex-item {
+    display: flex;
+}
+.flex-item {
+  align-items: center;
+  justify-content: center;
+}
 
 /*---------------------------------------
     Preloader section              
@@ -350,21 +355,21 @@ a:hover, a:active, a:focus {
     Home section              
 -----------------------------------------*/
 
-#home h1 {
+#home-section h1 {
   padding-bottom: 18px;
   color: #4acfee;
 }
-#home h1 strong, #home h2 {
+#home-section h1 strong, #home-section h2 {
   color: #4acfee;
 }
-#home .col-md-6 {
+#home-section .col-md-6 {
   background:#0d0d0d;
 /* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
 }
 
-#home .home-img {
+#home-section .home-img {
   background: url('../images/home-img.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -372,7 +377,7 @@ a:hover, a:active, a:focus {
   height: 100vh;
 }
 
-#home .home-thumb {
+#home-section .home-thumb {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -381,18 +386,22 @@ a:hover, a:active, a:focus {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 100vh;
-  padding: 0 45px 0 45px;
+  padding: 15px;
 }
 
-#home .btn-success {
+#home-section .btn-success {
   background: none;
   border: 1px solid #4acfee;
 }
-#home .btn-success:hover {
+#home-section .btn-success:hover {
   background-color: #000;
 }
-
+#home-section .flex-container .flex-row {
+  width: 50%;
+}
+#home-section .flex-item {
+  background-color: #000;
+}
 /*---------------------------------------
    About section              
 -----------------------------------------*/
@@ -403,7 +412,8 @@ a:hover, a:active, a:focus {
 
 #about .about-thumb,
 #about .skill-thumb {
-  padding: 22px 32px 32px 32px;
+  padding: 15px;
+  width: 100%;
 }
 
 #about .progress {
@@ -429,23 +439,38 @@ a:hover, a:active, a:focus {
 #about li strong {
   color: #008080;
 }
-
+#about .left-section {
+  width: 70%;
+  padding: 15px;
+}
+.flex-item.about-thumb {
+  flex-direction: column;
+}
+#about .flex-row.right-section {
+  width: 30%;
+}
+#about .wow.fadeInUp.skills-thumb.animated {
+  width: 100%;
+}
+.skills.flex-row {
+  flex-direction: column;
+}
 
 /*---------------------------------------
     Service section              
 -----------------------------------------*/
 
-#service {
+/* #service {
   background: #E9724C;
-}
+} */
 
 #service p {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 2;
 }
 
 #service .service-thumb {
-  padding: 52px 22px 52px 22px;
+  padding: 90px 15px;
 }
 
 #service .service-thumb .fa {
@@ -461,6 +486,7 @@ a:hover, a:active, a:focus {
 
 #experience .experience-img {
   background: url('../images/experience-img.jpg') no-repeat;
+  min-height: 110vh;
 }
 
 #experience .media-heading {
@@ -616,7 +642,9 @@ a:hover, a:active, a:focus {
   padding-right: 10px;
 }
 
-
+.bg-teel {
+  background-color: #0f88a3;;
+}
 
 /*---------------------------------------
    Footer section              
@@ -674,22 +702,75 @@ footer {
    Mobile Responsive         
 -----------------------------------------*/
 
-@media only screen and (max-width: 580px) {
-  h1 {
-    font-size: 32px;
+@media (max-width: 1600px) {
+  .flex-item.second-section-image {
+      padding: 20px;
   }
-
-  h2 {
-    font-size: 28px;
-    line-height: inherit;
+  #about .left-section {
+    width: 70%;
+    padding: 0;
   }
-
-  h3 {
-    font-size: 22px;
-    line-height: inherit;
+  .section-title {
+    position: relative;
+    padding-bottom: 0px;  
+  }
+  #about strong, #about span {
+    font-size: 16px;
   }
 }
+@media (max-width: 1200px) {
+  #about .flex-container {
+    flex-direction: column;
+  }
+  #about .flex-row {
+    width: 100%;
+  }
+  #about .flex-row.right-section {
+    width: 100%;
+  }
+  .skills .flex-item {
+    width: 50%;
+    padding: 15px;
+  }
+  .skills.flex-row {
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .section-title {
+    padding-bottom: 12px;
+  }
 
+  footer {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 992px) {
+  .section-title {
+    padding-bottom: 12px;
+    margin-top: 25px;
+  }
+  .custom-navbar .navbar-brand {
+    font-size: 2em;
+  }
+  #home-section h1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  #home-section h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  #home-section .section-btn.btn-success {
+    font-size: 20px;
+  }
+  #home-section .flex-row.right-section{
+    width: 55%;
+  }
+  #home-section .flex-row.left-section{
+    width: 45%;
+  }
+}
 @media only screen and (max-width: 767px) {
   .custom-navbar .navbar-brand {
     line-height: 18px;
@@ -698,13 +779,13 @@ footer {
     font-size: 1.5em; 
   }
 
-  #home .home-thumb {
+  #home-section .home-thumb {
     height: auto;
     padding-top: 32px;
     padding-bottom: 12px;
   }
 
-  #home .container,
+  #home-section .container,
   #about .container, 
   #experience .container,
   #service .container,
@@ -726,14 +807,26 @@ footer {
     position: relative;
     min-height: 65vh;
   }
-}
-
-@media only screen and (max-width: 1024px) {
-  .section-title {
-    padding-bottom: 12px;
+  #home-section .flex-container {
+    flex-direction: column;
   }
-
-  footer {
-    padding: 40px 0;
+  #home-section .flex-container .flex-row {
+    width: 100%;
+  }
+  #about .flex-row {
+    width: 100%;
+    flex-direction: column;
+  }
+  .wow.fadeInUp.skills-thumb, .skills .flex-item {
+    width: 100%;
+  }
+  #about .about-thumb, #about .skill-thumb, .flex-item.second-section-image {
+    padding: 0px;
+  }
+  #experience, #education {
+    margin: 15px 0;
+  }
+  #education .education-thumb {
+    padding: 0px;
   }
 }

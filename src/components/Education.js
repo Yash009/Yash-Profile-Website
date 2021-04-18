@@ -7,14 +7,11 @@ function Education() {
           <div className="col-sm-12 text-left">
             <div className="color-white education-thumb">
             <div className="wow fadeInUp section-title" data-wow-delay="0.8s">
-                <h1>My Experience</h1>
+                <h2>My Experience</h2>
               </div>
               <div className="wow fadeInUp color-white media" data-wow-delay="1.2s">
-                <div className="media-object media-left">
-                  <i className="fa fa-laptop" />
-                </div>
                 <div className="media-body">
-                  <h3 className="media-heading">HC Brands<small> 2017 Oct - Current</small></h3>
+                <h3 className="media-heading"><i className="fa fa-laptop" /> HC Brands<small> 2017 Oct - Current</small></h3>
                   <p className="color-white">UI/UX Developer - JacksonVille, Florida</p>
                   <ol>
                   <li>Built the landing page for HCBrands <a href="http://www.hcbrands.com">hcbrands.com</a> and all the other subsidiary websites</li>
@@ -47,11 +44,8 @@ function Education() {
                 </div>
               </div>
               <div className="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                <div className="media-object media-left">
-                  <i className="fa fa-laptop" />
-                </div>
                 <div className="media-body">
-                  <h3 className="media-heading">Accenture<small> 2012 May - 2015 July</small></h3>
+                  <h3 className="media-heading"><i className="fa fa-laptop" />Accenture<small> 2012 May - 2015 July</small></h3>
                   <p className="color-white">Software Engineer</p>
                   <ul>
                     <li>.Net Developer in &ldquo;Breeze&rdquo; (call center application for client BestBuy).</li>
