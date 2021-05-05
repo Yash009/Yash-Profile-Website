@@ -11,7 +11,7 @@ function Education() {
               </div>
               <div className="wow fadeInUp color-white media" data-wow-delay="1.2s">
                 <div className="media-body">
-                <h3 className="media-heading"><i className="fa fa-laptop" /> HC Brands<small> 2017 Oct - Current</small></h3>
+                <h3 className="media-heading"><i className="fa fa-laptop" /> HC Brands<small> Oct 2017 - Current</small></h3>
                   <p className="color-white">UI/UX Developer - JacksonVille, Florida</p>
                   <ol>
                   <li>Built the landing page for HCBrands <a href="http://www.hcbrands.com">hcbrands.com</a> and all the other subsidiary websites</li>
@@ -25,7 +25,7 @@ function Education() {
                   <li><a href="http://www.corpconnect.com">www.corpconnect.com</a></li>
                   </ol>
                   <ul>
-                    <li>Currently Lead developer for to make the sites more <strong>ADA/WCAG Compliant</strong></li>
+                    <li>Currently Lead developer to make the sites more <strong>ADA/WCAG Compliant</strong></li>
                     <li>Work closely with the SEO&rsquo;s to <strong>implement schema.org</strong> to enable structured data on our websites so that they are eligible for rich snippets. Also Implemented <strong>webGL </strong>and<strong> open graph meta tags</strong> on our sites.</li>
                     <li>Working with SEO to monitor and track <strong>core web vitals</strong> in order recommend and implement updates</li>
                     <li>Worked with marketing/seo team to implement <strong>google tag manager</strong> to add conversion/tracking pixels. This has helped them spend more efficiently on ads, optimizing ad revenue.</li>
@@ -45,7 +45,7 @@ function Education() {
               </div>
               <div className="wow fadeInUp color-white media" data-wow-delay="1.6s">
                 <div className="media-body">
-                  <h3 className="media-heading"><i className="fa fa-laptop" />Accenture<small> 2012 May - 2015 July</small></h3>
+                  <h3 className="media-heading"><i className="fa fa-laptop" />Accenture<small> May 2012 - July 2015</small></h3>
                   <p className="color-white">Software Engineer</p>
                   <ul>
                     <li>The application recorded customer information/complaint and sent them to backend in XML/JSON format</li>

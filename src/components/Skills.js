@@ -12,14 +12,14 @@ function Skills() {
                 <p className="text-left">
                   I am a UI/X developer and I code for living and as a hobby. 
                   I am very passionate about my job and I live by the principle that if you love your job it doesn't feel like one! 
-                  I try to deliver quality products to best of my abilities and always pushing to improve my skillset every day. 
+                  I try to deliver quality products to the best of my abilities and am always pushing to improve my skillset every day. 
                   I enjoy problem solving and I do feel like a lot of problems in the modern world can be solved by computer science.
                 </p>
-                <p className="text-left">My Current work mostly involves</p>
+                <p className="text-left">My Current work mostly involves: </p>
                 <ul className="text-left">
                   <li><strong>Working with the design team to deliver high quality UI/UX Experience</strong></li>
-                  <li><strong>Help the SEO team to monitor core web vitals in order to recommend and implement solutions.</strong></li>
-                  <li><strong>Mitigate and Solve and production issues faced by the Customer Focus Team and B2B</strong></li>
+                  <li><strong>Helping the SEO team to monitor core web vitals in order to recommend and implement solutions.</strong></li>
+                  <li><strong>Mitigateing and Solving and production issues faced by the Customer Focus Team and B2B</strong></li>
                 </ul>
               </div>
             </div>

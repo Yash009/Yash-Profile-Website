@@ -15,7 +15,7 @@ function Intro() {
                                 <h1 className="wow fadeInUp" data-wow-delay="0.6s">Hello, I am <strong>Yash Chaturvedi</strong> currently based in Jacksonville, Florida.</h1>
                                 <h2 className="wow fadeInUp" data-wow-delay="0.3s">I am a Web Developer</h2>
                                 <p className="wow fadeInUp" data-wow-delay="0.9s"></p>                             
-                                <a href="/resume/Yash_frontEnd-4-2021.docx" download="/resume/Yash_frontEnd-4-2021.docx" className="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s" download>Download Resume</a>                             
+                                <a href="/resume/Yash_frontEnd-4-2021.docx" download="/resume/Yash_frontEnd-4-2021.docx" className="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s" download>Download Resumé</a>                             
                             </div>
                         </div>
                     </div>
