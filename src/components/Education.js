@@ -48,9 +48,7 @@ function Education() {
                   <h3 className="media-heading"><i className="fa fa-laptop" />Accenture<small> 2012 May - 2015 July</small></h3>
                   <p className="color-white">Software Engineer</p>
                   <ul>
-                    <li>.Net Developer in &ldquo;Breeze&rdquo; (call center application for client BestBuy).</li>
                     <li>The application recorded customer information/complaint and sent them to backend in XML/JSON format</li>
-                    <li>Created new search parameters for fetching customer&rsquo;s information and history.</li>
                     <li>Did Integration testing using SOAP UI to check the data flow through every component</li>
                     <li>Executed test scripts in various phases (Application Product testing, Regression testing and Smoke testing.</li>
                     <li>Created data for several teams for integration product testing..</li>
