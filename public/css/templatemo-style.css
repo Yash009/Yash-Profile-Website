@@ -770,6 +770,9 @@ footer {
   #home-section .flex-row.left-section{
     width: 45%;
   }
+  .custom-navbar .nav li a {
+      color: #000;
+  }
 }
 @media only screen and (max-width: 767px) {
   .custom-navbar .navbar-brand {
