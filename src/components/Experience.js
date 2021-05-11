@@ -7,7 +7,7 @@ function Experience() {
             <div className="col-xs-12c text-left">
               <div className="color-white experience-thumb">
               <div className="wow fadeInUp section-title" data-wow-delay="0.8s">
-                  <h1>My Education</h1>
+                  <h2>My Education</h2>
                 </div>
                 <div className="wow fadeInUp color-white media" data-wow-delay="1.2s">
                   <div className="media-body">
